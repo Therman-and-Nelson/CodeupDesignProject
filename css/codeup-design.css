@@ -71,3 +71,17 @@ p {
 .cir-4 {
     background-color: #00ABA9;
 }
+
+@media screen and (min-width: 768px){
+    #logo-holder{
+        align-items: center;
+    }
+    .links p{
+        margin: 0;
+    }
+    #codeup-design p{
+        margin: 0;
+        text-align: left;
+    }
+
+}
