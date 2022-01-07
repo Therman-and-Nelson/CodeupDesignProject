@@ -56,6 +56,9 @@ p {
     align-items: center;
     justify-content: center;
 }
+.circle *{
+    color: white;
+}
 
 .cir-1 {
     background-color: #EB9D3A;
@@ -73,51 +76,54 @@ p {
     background-color: #00ABA9;
 }
 
-#hidden-top{
+#hidden-top {
     position: fixed;
     z-index: 500;
     top: 45px;
     width: 100%;
 }
-#hidden-top *{
+
+#hidden-top * {
     display: none;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 767px) {
 
-    #hidden-top *{
+    #hidden-top * {
         display: inline-flex;
         width: 100%;
     }
-    .links{
+
+    .links {
         display: none;
     }
-    #right-header-links .links *{
+
+    #right-header-links .links * {
         justify-content: flex-end;
     }
-
-
-
 
 }
 
 
-@media screen and (min-width: 768px){
-    #logo-holder{
+@media screen and (min-width: 768px) {
+    #logo-holder {
         align-items: center;
     }
-    .links p{
+
+    .links p {
         margin: 0;
     }
-    #codeup-design p{
+
+    #codeup-design p {
         margin: 0;
         text-align: left;
     }
-    #hidden-top{
+
+    #hidden-top {
         display: none;
     }
-    .links{
+
+    .links {
         display: revert;
     }
-
 }
