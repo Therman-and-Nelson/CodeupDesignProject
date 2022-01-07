@@ -43,6 +43,7 @@ p {
 .second-section {
     font-family: "Anton", sans-serif;
 }
+<<<<<<< HEAD
 
 /*THE CIRCLES*/
 .circle {
@@ -69,4 +70,10 @@ p {
 
 .cir-4 {
     background-color: #00ABA9;
+=======
+.circle {
+
+
+
+>>>>>>> dc50ffd39f90007242c2ab5059042de041761ab9
 }
