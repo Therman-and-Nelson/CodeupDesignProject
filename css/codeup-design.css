@@ -18,18 +18,28 @@ body {
     z-index: 1000;
     top: 3px;
 }
+
+/*PARAGRAPHS*/
 p {
     font-family: "Abel", sans-serif;
 }
+
+/*CODEUP DESIGN TEXT AT TOP*/
 #codeup-design {
     font-size: 40px;
 }
+
+/*LOGO IMAGE*/
 #logo img {
-    height:105px;
+    height: 105px;
 }
+
+/*LOGO CONTAINER*/
 #logo-holder {
     text-align: center;
 }
+
+/*TEXT FOR TWO HEADERS ABOVE CIRCLES*/
 .second-section {
     font-family: "Anton", sans-serif;
 }
