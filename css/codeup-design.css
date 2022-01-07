@@ -18,3 +18,18 @@ body {
     z-index: 1000;
     top: 3px;
 }
+p {
+    font-family: "Abel", sans-serif;
+}
+#codeup-design {
+    font-size: 40px;
+}
+#logo img {
+    height:105px;
+}
+#logo-holder {
+    text-align: center;
+}
+.second-section {
+    font-family: "Anton", sans-serif;
+}
