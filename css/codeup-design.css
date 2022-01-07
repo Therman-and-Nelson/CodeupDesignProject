@@ -1,6 +1,7 @@
 /*SMALLEST SCREENS*/
 
 /*BODY BACKGROUND*/
+
 body {
     background-color: #E6E6E6;
 }
@@ -72,6 +73,35 @@ p {
     background-color: #00ABA9;
 }
 
+#hidden-top{
+    position: fixed;
+    z-index: 500;
+    top: 45px;
+    width: 100%;
+}
+#hidden-top *{
+    display: none;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+
+    #hidden-top *{
+        display: inline-flex;
+        width: 100%;
+    }
+    .links{
+        display: none;
+    }
+    #right-header-links .links *{
+        justify-content: flex-end;
+    }
+
+
+
+
+}
+
+
 @media screen and (min-width: 768px){
     #logo-holder{
         align-items: center;
@@ -82,6 +112,12 @@ p {
     #codeup-design p{
         margin: 0;
         text-align: left;
+    }
+    #hidden-top{
+        display: none;
+    }
+    .links{
+        display: revert;
     }
 
 }
