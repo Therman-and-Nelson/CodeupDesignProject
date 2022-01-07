@@ -1,0 +1,20 @@
+/*SMALLEST SCREENS*/
+
+/*BODY BACKGROUND*/
+body {
+    background-color: #E6E6E6;
+}
+
+/*THE WHITE STRIPE*/
+#stripe {
+    height: 80px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+/*THE MAIN CONTAINER...IT HAS A FIXED POSITION AND Z-INDEX SO IT FLOATS ON TOP OF THE STRIPE*/
+.container-fluid {
+    position: fixed;
+    z-index: 1000;
+    top: 3px;
+}
