@@ -43,3 +43,30 @@ p {
 .second-section {
     font-family: "Anton", sans-serif;
 }
+
+/*THE CIRCLES*/
+.circle {
+    border: 6px solid white;
+    height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cir-1 {
+    background-color: #EB9D3A;
+}
+
+.cir-2 {
+    background-color: #DEA03D;
+}
+
+.cir-3 {
+    background-color: #7CB06C;
+}
+
+.cir-4 {
+    background-color: #00ABA9;
+}
