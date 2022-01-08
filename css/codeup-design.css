@@ -20,7 +20,6 @@ body {
     top: 3px;
 }
 
-
 /*PARAGRAPHS*/
 p {
     font-family: "Abel", sans-serif;
@@ -57,12 +56,12 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/*THE TEXT IN THE CIRCLES*/
 .circle * {
     color: white;
     font-family: "Anton", sans-serif;
 }
-
+/*THE FOUR CIRCLE BACKGROUND COLORS*/
 .cir-1 {
     background-color: #EB9D3A;
 }
@@ -98,17 +97,17 @@ p {
     margin: auto;
 
 }
-
+/*THE FIGURES*/
 figure {
     max-width: 100%;
 }
-
+/*IMG INSIDE THE FIGURE*/
 figure img {
     height: 100%;
     border-radius: 5px;
     border: 5px solid #E6E6E6;
 }
-
+/*THE HIDDEN HR BEFORE MEDIUM*/
 hr {
     display: none;
 }
@@ -117,16 +116,16 @@ hr {
 .the-last {
     display: none;
 }
-
+/*AND SO IS THE THIRD COLUMN*/
 .hidden-below-medium {
     display: none;
 }
-
+/*TEXT INSIDE THE PILLS*/
 .pill p {
     font-family: 'Anton', sans-serif;
     margin-bottom: 0;
 }
-
+/*THE PILLS BELOW THE IMAGES*/
 .pill {
     border-radius: 50%;
     max-height: 20px;
@@ -135,7 +134,7 @@ hr {
     justify-content: center;
     align-items: center;
 }
-
+/*THE FOUR PILL BACKGROUND COLORS*/
 .pill-1 {
     background-color: #E6563B;
 }
@@ -187,10 +186,9 @@ hr {
         display: revert;
     }
 
-
 }
-
 /*END OF FIRST MEDIA QUERY*/
+
 /*THIS ONE IS FOR MEDIUM SCREENS AND UP*/
 @media screen and (min-width: 768px) {
 
@@ -253,6 +251,8 @@ hr {
 
 /*THIRD MEDIA QUERY FOR LARGE SCREENS*/
 @media screen and (min-width: 992px) {
+
+    /*THIS ADDS MARGINS TO THE ENTIRE CONTAINER*/
     .container-lg {
         margin-left: calc((100vw - 960px) / 2);
         margin-right: calc((100vw - 960px) / 2);
@@ -261,8 +261,11 @@ hr {
 
 /*FOURTH MEDIA QUERY EXTRA LARGE SCREENS*/
 @media screen and (min-width: 1200px) {
+    /*THIS ADDS MARGIN TO THE ENTIRE CONTAINER*/
     .container-lg {
         margin-left: calc((100vw - 1140px) / 2);
         margin-right: calc((100vw - 1140px) / 2);
     }
 }
+
+/*END OF CSS*/
