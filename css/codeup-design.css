@@ -98,14 +98,20 @@ p {
 
 }
 
-figure{
+figure {
     max-width: 100%;
 }
 
-figure img{
+figure img {
     height: 100%;
 }
-hr{
+
+hr {
+    display: none;
+}
+
+/*THE LAST IS HIDDEN UNTIL MEDIUM*/
+.the-last {
     display: none;
 }
 
@@ -138,7 +144,8 @@ hr{
         max-height: 120px;
     }
 
-    hr{
+    /*HR IS HIDDEN UNTIL MEDIUM*/
+    hr {
         display: revert;
     }
 
@@ -184,6 +191,25 @@ hr{
         max-width: 120px;
         max-height: 120px;
     }
+
+    /*HR RE-APPEARS*/
+    hr {
+        display: revert;
+    }
+
+    /*THE LAST RE-APPEARS*/
+    .the-last {
+        display: revert;
+    }
+
+
 }
 
 /*END OF SECOND MEDIA QUERY*/
+
+
+/*THIRD MEDIA QUERY FOR LARGE AND X-LARGE SCREENS*/
+@media screen and (min-width: 992px) {
+
+
+}
