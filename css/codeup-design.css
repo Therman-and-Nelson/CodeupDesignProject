@@ -105,6 +105,8 @@ figure {
 
 figure img {
     height: 100%;
+    border-radius: 5px;
+    border: 5px solid #E6E6E6;
 }
 
 hr {
@@ -115,13 +117,41 @@ hr {
 .the-last {
     display: none;
 }
-.hidden-below-medium{
+
+.hidden-below-medium {
     display: none;
 }
 
-.pill p{
+.pill p {
     font-family: 'Anton', sans-serif;
+    margin-bottom: 0;
 }
+
+.pill {
+    border-radius: 50%;
+    max-height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pill-1 {
+    background-color: #E6563B;
+}
+
+.pill-2 {
+    background-color: #DEA03D;
+}
+
+.pill-3 {
+    background-color: #7CB06C;
+}
+
+.pill-4 {
+    background-color: #00ABA9;
+}
+
 
 /*MEDIA QUERY FOR SMALL-MEDIUM*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -209,8 +239,9 @@ hr {
     .the-last {
         display: revert;
     }
+
     /*THE THIRD COLUMN RE-APPEARS*/
-    .hidden-below-medium{
+    .hidden-below-medium {
         display: revert;
     }
 
