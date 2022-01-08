@@ -87,6 +87,11 @@ p {
     display: none;
 }
 
+.circle-row{
+   width: 50%;
+    margin: auto;
+}
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
     #hidden-top * {
@@ -100,6 +105,9 @@ p {
 
     #right-header-links .links * {
         justify-content: flex-end;
+    }
+    .circle-row{
+        width: 100%;
     }
 
 }
@@ -125,5 +133,8 @@ p {
 
     .links {
         display: revert;
+    }
+    .circle-row{
+        width: 100%;
     }
 }
