@@ -115,6 +115,11 @@ hr {
 .the-last {
     display: none;
 }
+.hidden-below-medium{
+    display: none;
+}
+
+
 
 /*MEDIA QUERY FOR SMALL-MEDIUM*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -200,6 +205,10 @@ hr {
 
     /*THE LAST RE-APPEARS*/
     .the-last {
+        display: revert;
+    }
+    /*THE THIRD COLUMN RE-APPEARS*/
+    .hidden-below-medium{
         display: revert;
     }
 
