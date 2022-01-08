@@ -3,7 +3,7 @@
 /*BODY BACKGROUND*/
 
 body {
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
 
 /*THE WHITE STRIPE*/
@@ -49,15 +49,17 @@ p {
 /*THE CIRCLES*/
 .circle {
     border: 6px solid white;
-    height: 120px;
-    max-width: 120px;
+    height: 150px;
+    max-width: 150px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.circle *{
+
+.circle * {
     color: white;
+    font-family: "Anton", sans-serif;
 }
 
 .cir-1 {
@@ -76,6 +78,7 @@ p {
     background-color: #00ABA9;
 }
 
+/*THE NAV-LINKS THAT HIDE ON SMALLER SIZES*/
 #hidden-top {
     position: fixed;
     z-index: 500;
@@ -83,37 +86,54 @@ p {
     width: 100%;
 }
 
+/*THEY DON'T SHOW UP AT THIS SIZE'*/
 #hidden-top * {
     display: none;
 }
 
-.circle-row{
-   width: 50%;
+/*THIS CONTAINS THE FOUR CIRCLES*/
+.circle-row {
+    width: 75%;
     margin: auto;
 }
 
+/*MEDIA QUERY FOR SMALL-MEDIUM*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
-
+    /*SHOWS THE HIDDEN TOP NAV-LINKS*/
     #hidden-top * {
         display: inline-flex;
         width: 100%;
     }
 
+    /*HIDES THE ONES UNDER THE HEADER*/
     .links {
         display: none;
     }
 
+    /*THIS IS FOR SPACING THE NAV-LINKS ON THE WHITE STRIPE*/
     #right-header-links .links * {
         justify-content: flex-end;
     }
-    .circle-row{
+
+    /*THE CONTAINER FOR THE FOUR CIRCLES GOES FULL WIDTH*/
+    .circle-row {
         width: 100%;
     }
 
+    /*THE CIRCLES GET A LITTLE SMALLER*/
+    .circle {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+
 }
 
-
+/*END OF FIRST MEDIA QUERY*/
+/*THIS ONE IS FOR MEDIUM SCREENS AND UP*/
 @media screen and (min-width: 768px) {
+
+    /*MOVES THE LOGO TO THE CENTER*/
     #logo-holder {
         align-items: center;
     }
@@ -122,19 +142,32 @@ p {
         margin: 0;
     }
 
+    /*ALIGNING THE TEXT NEXT TO THE LOGO IMAGE*/
     #codeup-design p {
         margin: 0;
         text-align: left;
     }
 
+    /*HIDES THE NAV-LINKS AGAIN, BECAUSE THE OTHER ONES JUMP UP TO THE WHITE STRIPE NOW*/
     #hidden-top {
         display: none;
     }
 
+    /*ENDS THE DISPLAY NONE ON THESE, BUT NOW THEY'RE TOP RIGHT'*/
     .links {
         display: revert;
     }
-    .circle-row{
+
+    /*CONTAINER FOR CIRCLES STILL AT FULL WIDTH*/
+    .circle-row {
         width: 100%;
     }
+
+    /*CIRCLES STAY AT 120PX*/
+    .circle {
+        max-width: 120px;
+        max-height: 120px;
+    }
 }
+
+/*END OF SECOND MEDIA QUERY*/
