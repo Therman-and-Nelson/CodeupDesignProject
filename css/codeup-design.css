@@ -20,6 +20,7 @@ body {
     top: 3px;
 }
 
+
 /*PARAGRAPHS*/
 p {
     font-family: "Abel", sans-serif;
@@ -208,8 +209,18 @@ hr {
 /*END OF SECOND MEDIA QUERY*/
 
 
-/*THIRD MEDIA QUERY FOR LARGE AND X-LARGE SCREENS*/
+/*THIRD MEDIA QUERY FOR LARGE SCREENS*/
 @media screen and (min-width: 992px) {
+    .container-lg {
+        margin-left: calc((100vw - 960px) / 2);
+        margin-right: calc((100vw - 960px) / 2);
+    }
+}
 
-
+/*FOURTH MEDIA QUERY EXTRA LARGE SCREENS*/
+@media screen and (min-width: 1200px) {
+    .container-lg {
+        margin-left: calc((100vw - 1140px) / 2);
+        margin-right: calc((100vw - 1140px) / 2);
+    }
 }
