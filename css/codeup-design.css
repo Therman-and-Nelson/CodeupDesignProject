@@ -15,7 +15,7 @@ body {
 
 /*THE MAIN CONTAINER...IT HAS A FIXED POSITION AND Z-INDEX SO IT FLOATS ON TOP OF THE STRIPE*/
 .container-fluid {
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     top: 3px;
 }
@@ -80,7 +80,7 @@ p {
 
 /*THE NAV-LINKS THAT HIDE ON SMALLER SIZES*/
 #hidden-top {
-    position: fixed;
+    position: absolute;
     z-index: 500;
     top: 45px;
     width: 100%;
@@ -95,6 +95,18 @@ p {
 .circle-row {
     width: 75%;
     margin: auto;
+
+}
+
+figure{
+    max-width: 100%;
+}
+
+figure img{
+    height: 100%;
+}
+hr{
+    display: none;
 }
 
 /*MEDIA QUERY FOR SMALL-MEDIUM*/
@@ -124,6 +136,10 @@ p {
     .circle {
         max-width: 120px;
         max-height: 120px;
+    }
+
+    hr{
+        display: revert;
     }
 
 
