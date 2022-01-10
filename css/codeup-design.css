@@ -151,6 +151,19 @@ hr {
     background-color: #00ABA9;
 }
 
+.third-column-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    border: 5px solid #E6E6E6;
+}
+.hidden-below-medium h5{
+    font-family: "Anton", sans-serif;
+}
+i{
+    color: #1DA1F2;
+}
+
 
 /*MEDIA QUERY FOR SMALL-MEDIUM*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
