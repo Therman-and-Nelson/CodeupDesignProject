@@ -130,6 +130,7 @@ hr {
 /*TEXT INSIDE THE PILLS*/
 .pill p {
     font-family: 'Anton', sans-serif;
+    font-size: .75em;
     margin-bottom: 0;
 }
 
