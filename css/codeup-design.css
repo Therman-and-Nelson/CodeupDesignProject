@@ -56,11 +56,13 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 /*THE TEXT IN THE CIRCLES*/
 .circle * {
     color: white;
     font-family: "Anton", sans-serif;
 }
+
 /*THE FOUR CIRCLE BACKGROUND COLORS*/
 .cir-1 {
     background-color: #EB9D3A;
@@ -97,16 +99,19 @@ p {
     margin: auto;
 
 }
+
 /*THE FIGURES*/
 figure {
     max-width: 100%;
 }
+
 /*IMG INSIDE THE FIGURE*/
 figure img {
     height: 100%;
     border-radius: 5px;
     border: 5px solid #E6E6E6;
 }
+
 /*THE HIDDEN HR BEFORE MEDIUM*/
 hr {
     display: none;
@@ -116,15 +121,18 @@ hr {
 .the-last {
     display: none;
 }
+
 /*AND SO IS THE THIRD COLUMN*/
 .hidden-below-medium {
     display: none;
 }
+
 /*TEXT INSIDE THE PILLS*/
 .pill p {
     font-family: 'Anton', sans-serif;
     margin-bottom: 0;
 }
+
 /*THE PILLS BELOW THE IMAGES*/
 .pill {
     border-radius: 50%;
@@ -134,6 +142,7 @@ hr {
     justify-content: center;
     align-items: center;
 }
+
 /*THE FOUR PILL BACKGROUND COLORS*/
 .pill-1 {
     background-color: #E6563B;
@@ -151,16 +160,18 @@ hr {
     background-color: #00ABA9;
 }
 
-.third-column-img{
-    height: 70px;
-    width: 70px;
+.third-column-img {
+    height: 80px;
+    width: 80px;
     border-radius: 5px;
     border: 5px solid #E6E6E6;
 }
-.hidden-below-medium h5{
+
+.hidden-below-medium h4 {
     font-family: "Anton", sans-serif;
 }
-i{
+
+i {
     color: #1DA1F2;
 }
 
@@ -200,6 +211,7 @@ i{
     }
 
 }
+
 /*END OF FIRST MEDIA QUERY*/
 
 /*THIS ONE IS FOR MEDIUM SCREENS AND UP*/
