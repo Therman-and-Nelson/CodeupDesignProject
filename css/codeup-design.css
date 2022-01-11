@@ -20,6 +20,10 @@ body {
     top: 3px;
 }
 
+.links *{
+    color: black;
+}
+
 /*PARAGRAPHS*/
 p {
     font-family: "Abel", sans-serif;
@@ -91,6 +95,7 @@ p {
 /*THEY DON'T SHOW UP AT THIS SIZE'*/
 #hidden-top * {
     display: none;
+    color: black;
 }
 
 /*THIS CONTAINS THE FOUR CIRCLES*/
